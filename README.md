@@ -1,2 +1,1 @@
-# acme-bank-webpage
-ACME Bank Webpage
+# ACME Bank Webpage
