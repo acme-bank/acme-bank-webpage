@@ -28,6 +28,15 @@ body {
     padding: 0 1rem;
 }
 
+.dropdown-menu {
+    color: #ccc;
+    background-color: #292b2c;
+}
+
+.dropdown-item {
+    color: #ccc;
+}
+
 .btn {
     padding: 1rem 1rem;
     border-radius: .25rem;

@@ -2,7 +2,7 @@
   <div class="jumbotron">
     <h2 class="display-4">DevOps Platform</h2>
     <p class="lead">
-      The ACME Bank DevOps platform is a CI/CD enabling framework.
+      The ACME Bank DevOps platform is a runtime and CI/CD enabling platform for development of ACME applications.
     </p>
     <hr class="separator-normal">
     <h4 class="display-5">Platform services</h4>
@@ -10,15 +10,28 @@
       The platform is a container based framework based on Docker, and is comprised of the following services.
     </p>
     <ul>
-      <li>Docker Registry</li>
+      <li>
+        <b>Docker Registry</b> - Registry to version ACME Docker images</li>
       <ul>
-        <li>Docker Registry UI</li>
+        <li>
+          <b>Docker Registry UI</b> - User interface for the Docker Registry</li>
       </ul>
-      <li>Jenkins</li>
-      <li>Nexus</li>
-      <li>Spring Cloud Config Server</li>
-      <li>Kafka</li>
-      <li>HAProxy</li>
+      <li>
+        <b>Jenkins</b> - CI build server</li>
+      <li>
+        <b>Nexus</b> - Artifact repository</li>
+      <li>
+        <b>Apache Kafka</b> - Mesage broker and event store</li>
+      <ul>
+        <li>
+          <b>Apache ZooKeeper</b> - Distributed service orchestration</li>
+      </ul>
+      <li>
+        <b>HAProxy</b> - Proxy server and load balancer</li>
     </ul>
+    <a class="btn btn-link" role="button" href="https://github.com/acme-bank/acme-devops-platform" target="_blank">
+      <i class="fab fa-github" style="font-size: larger" aria-hidden="true"></i>&nbsp;&nbsp;https://github.com/acme-bank/acme-devops-platform&nbsp;&nbsp;
+      <i class="fa fa-external-link" aria-hidden="true"></i>
+    </a>
   </div>
 </div>
